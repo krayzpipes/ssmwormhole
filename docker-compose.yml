@@ -8,4 +8,4 @@ services:
       AWS_ACCESS_KEY_ID: #blah
       AWS_SECRET_ACCESS_KEY: #blashsecret
       AWS_REGION: us-east-2
-    entrypoint: /usr/bin/wormhole socks
+    entrypoint: "/usr/bin/wormhole socks"

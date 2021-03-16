@@ -20,3 +20,10 @@ RUN chown -R wormhole:wormhole /home/wormhole \
     && chmod 500 /home/wormhole/bin/wormhole.sh \
     && ln -s /home/wormhole/bin/wormhole.sh /usr/bin/wormhole
 
+USER wormhole
+
+WORKDIR /home/wormhole
+
+ENTRYPOINT ["/usr/bin/wormhole", "socks"]
+
+EXPOSE 8888
