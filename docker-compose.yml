@@ -1,0 +1,11 @@
+version: '3'
+services:
+  wormhole:
+    build: docker/
+    ports:
+      - 8888:8888
+    environment:
+      AWS_ACCESS_KEY_ID: #blah
+      AWS_SECRET_ACCESS_KEY: #blashsecret
+      AWS_REGION: us-east-2
+    entrypoint: /usr/bin/wormhole socks

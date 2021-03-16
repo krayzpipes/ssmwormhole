@@ -1,2 +1,9 @@
-# ssmwormhole
-Use AWS SSM to tunnel your traffic to the internet.
+# ssm-wormhole
+Use AWS SSM to tunnel traffic to the internet.
+
+# Quick Start
+
+## Prerequisites
+- Install AWS CDK
+- Install Python v3.9
+- 
